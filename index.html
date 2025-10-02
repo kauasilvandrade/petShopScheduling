@@ -14,6 +14,90 @@
   <link rel="stylesheet" href="src/styles/index.css">
 </head>
 <body>
-  
+  <div id="app">
+
+    <header>
+        <div>
+          <h1>Sua agenda</h1>
+          <p>Aqui você pode ver todos os clientes e serviços agendados para hoje.</p>
+        </div>
+
+        <div>
+          <input type="date" name="daySchedule" id="daySchedule">
+        </div>
+    </header>
+
+    <main class="mainSchedule">
+
+      <section class="schedulePeriod">
+        <header>
+          <img src="src/assets/sun-blue.svg" alt="Ícone da Manhã">
+          <label>Manhã</label>
+          <span>09-12h</span>
+        </header>
+
+        <ul class="period" role="list">
+          <li>
+            <strong>09:00</strong>
+            <span><strong>Thor</strong> / Fernanda Costa</span>
+            <span>Vacinação</span>
+            <span>Remover agendamento</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="schedulePeriod">
+        <header>
+          <div>
+            <img src="src/assets/cloud-sun-orange.svg" alt="Ícone da Tarde">
+            <label>Tarde</label>
+          </div>
+          <span>13-18h</span>
+        </header>
+
+        <ul class="period" role="list">
+          <li>
+            <strong>13:00</strong>
+            <span><strong>Mel</strong> / João Souza</span>
+            <span>Corte de Unhas</span>
+            <span>Remover agendamento</span>
+          </li>
+          <li>
+            <strong>14:00</strong>
+            <span><strong>Bella</strong> / Pedro Martins</span>
+            <span>Aplicação de Anti-pulgas</span>
+            <span>Remover agendamento</span>
+          </li>
+          <li>
+            <strong>15:00</strong>
+            <span><strong>Simba</strong> / Juliana Rocha</span>
+            <span>Tosa Higiênica</span>
+            <span>Remover agendamento</span>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="schedulePeriod">
+        <header>
+          <div>
+            <img src="src/assets/moon-yellow.svg" alt="Ícone da Noite">
+            <label>Noite</label>
+          </div>
+          <span>19-21h</span>
+        </header>
+
+        <ul class="period" role="list">
+          <li>
+            <strong>20:00</strong>
+            <span><strong>Max</strong> / Camila Santos</span>
+            <span>Limpeza de Dentes</span>
+            <span>Remover agendamento</span>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+  </div>
 </body>
 </html>
